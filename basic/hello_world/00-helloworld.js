@@ -5,7 +5,6 @@ Esto es
 un comentario
 en varias lÃ­neas
 */
-
 console.log("Hola, JavaScript!")
 console.log('Hola, JavaScript!')
 console.log(`Hola, JavaScript!`)
