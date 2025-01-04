@@ -16,7 +16,6 @@ console.log("Â¡Hola, JavaScript!")
 console.log('Â¡Hola, JavaScript!')
 console.log(`Â¡Hola, JavaScript!`)
 */
-
 console.log("5")
 console.log(5)
 console.log(5 + 2)
