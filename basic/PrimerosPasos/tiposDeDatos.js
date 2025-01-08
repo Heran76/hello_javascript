@@ -17,5 +17,7 @@ let isStudent = false
 // Undefined
 let undefinedValue
 console.log(undefinedValue)
+// Null
+let nullValue = null
 
 console.log(typeof(myName))
