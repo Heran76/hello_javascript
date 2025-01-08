@@ -20,4 +20,8 @@ console.log(undefinedValue)
 // Null
 let nullValue = null
 
+// Symbol
+
+let mySymbol = Symbol("mysymbol")
+
 console.log(typeof(myName))
