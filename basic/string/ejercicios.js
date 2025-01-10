@@ -35,3 +35,24 @@ let language = "JavaScript"
 let interpolatedString = `Estoy aprendiendo ${language}`
 console.log("*** Ejercicio 6 ****")
 console.log(interpolatedString)
+
+// 7. Reemplaza todos los espacios en blanco de un string por guiones.
+
+let stringWithSpaces = "Mi nombre es Antonio Heredia"
+let stringWithHyphens = stringWithSpaces.replace(/ /g, "-")
+console.log("*** Ejercicio 7 ****")
+console.log(stringWithHyphens)
+
+// 8. Comprueba si una cadena de texto contiene una palabra concreta.
+
+let sentence = "Me gusta programar en JavaScript"
+console.log("*** Ejercicio 8 ****")
+console.log(sentence.includes("JavaScript"))
+
+// 9. Comprueba si dos strings son iguales.
+
+let string3 = "hola"
+let string4 = 'hola'
+console.log("*** Ejercicio 9 ****")
+console.log(string3 === string4)
+
