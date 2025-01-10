@@ -18,5 +18,14 @@ console.log(mystring[0])
 console.log(mystring[mystring.length - 1])
 // 4. Convierte a mayásculas y minúsculas un string.
 console.log("*** Ejercicio 4 ****")
-console.log(myString.toUpperCase())
-console.log(myString.toLowerCase())
+console.log(mystring.toUpperCase())
+console.log(mystring.toLowerCase())
+
+// 5. Crea una cadena de texto en varias lí­neas.
+
+let multilineString = `Esta una
+cadena de texto
+creada en
+varias líneas`
+console.log("*** Ejercicio 5 ****")
+console.log(multilineString)
