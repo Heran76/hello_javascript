@@ -29,3 +29,9 @@ creada en
 varias líneas`
 console.log("*** Ejercicio 5 ****")
 console.log(multilineString)
+// 6. Interpola el valor de una variable en un string.
+
+let language = "JavaScript"
+let interpolatedString = `Estoy aprendiendo ${language}`
+console.log("*** Ejercicio 6 ****")
+console.log(interpolatedString)
