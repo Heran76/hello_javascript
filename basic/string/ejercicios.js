@@ -16,3 +16,7 @@ console.log(mystring.length)
 console.log("*** Ejercicio 3 ****")
 console.log(mystring[0])
 console.log(mystring[mystring.length - 1])
+// 4. Convierte a mayásculas y minúsculas un string.
+console.log("*** Ejercicio 4 ****")
+console.log(myString.toUpperCase())
+console.log(myString.toLowerCase())
