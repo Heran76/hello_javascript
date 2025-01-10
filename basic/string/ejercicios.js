@@ -11,3 +11,8 @@ console.log(concatenated)
 let mystring = "Hello World"
 console.log("*** Ejercicio 2 ****")
 console.log(mystring.length)
+
+// 3. Muestra el primer y últtimo caracter de un string.
+console.log("*** Ejercicio 3 ****")
+console.log(mystring[0])
+console.log(mystring[mystring.length - 1])
