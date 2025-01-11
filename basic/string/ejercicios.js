@@ -57,7 +57,6 @@ console.log("*** Ejercicio 9 ****")
 console.log(string3 === string4)
 
 // 10. Comprueba si dos strings tienen la misma longitud.
-
 let string5 = "hola"
 let string6 = "mundo"
 console.log(string5.length === string6.length)
