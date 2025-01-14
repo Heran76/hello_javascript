@@ -10,5 +10,58 @@ podrás organizar y manipular colecciones de datos de manera eficiente.
 //Declaración
 let myArray = []
 let myArray2 = new Array()
+console.log("*****[Declaración]******")
 console.log(myArray)
 console.log(myArray2)
+
+//inicialización 
+myArray =[4]
+myArray2 = new Array(4);
+console.log("*****[inicialización]******")
+console.log(myArray)
+console.log(myArray2)
+
+myArray = [1, 2, 3, 4]
+myArray2 = new Array(1, 2, 3, 4)
+console.log("*****[inicialización.2]******")
+console.log(myArray)
+console.log(myArray2)
+
+myArray = ["Antonio", "Heredia", "heran76", 76, true]
+myArray2 = new Array("Antonio", "Heredia", "Heran76", 76, true)
+console.log("*****[inicialización.3]******")
+console.log(myArray)
+console.log(myArray2)
+
+myArray2 = new Array(3)
+myArray2[2] = "Antonio"
+// myArray2[0] = "Heredia"
+myArray2[1] = "Heran76"
+myArray2[4] = "Heran76"
+console.log("*****[inicialización.4]******")
+console.log(myArray2)
+
+myArray = []
+myArray[2] = "Antonio"
+// myArray[0] = "Heran76"
+myArray[1] = "Heran76"
+console.log("*****[inicialización.5]******")
+console.log(myArray)
+
+//Métodos comunes
+
+myArray = []
+
+// push y pop
+
+myArray.push("Antonio")
+myArray.push("Heredia")
+myArray.push("Heran76")
+myArray.push(76)
+console.log("*****[Métodos.push]******")
+console.log(myArray)
+
+console.log(myArray.pop()) // Elimina el último y lo devuelve
+myArray.pop()
+console.log("*****[Métodos.pop]******")
+console.log(myArray)
