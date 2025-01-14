@@ -65,3 +65,44 @@ console.log(myArray.pop()) // Elimina el último y lo devuelve
 myArray.pop()
 console.log("*****[Métodos.pop]******")
 console.log(myArray)
+
+// shift y unshift
+console.log("*****[shift]******")
+console.log(myArray.shift())
+console.log(myArray)
+
+myArray.unshift("Antonio", "Heran76")
+console.log("*****[Unshif]******")
+console.log(myArray)
+
+// length
+console.log("*****[Legth]******")
+console.log(myArray.length)
+
+// clear
+
+myArray = []
+myArray.length = 0 // alternativa
+console.log("*****[Clear]******")
+console.log(myArray)
+
+// slice
+
+myArray = ["Antonio", "Heredia", "Heran76", 76, true]
+
+let myNewArray = myArray.slice(1, 3)
+console.log("*****[Slice]******")
+console.log(myArray)
+console.log(myNewArray)
+
+// splice
+
+myArray.splice(1, 3)
+console.log(myArray)
+
+myArray = ["Antonio", "Heredia", "Morante", 76, true]
+
+myArray.splice(1, 2, "Nueva entrada")
+console.log("*****[Splice]******")
+console.log(myArray)
+
