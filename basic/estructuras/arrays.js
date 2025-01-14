@@ -1,4 +1,4 @@
-//Arrays
+//Arrays o Matrices
 /*
 Vamos a explorar el uso de arrays en Javascript, una extructura de datos
 fundamental que permite almacenar multiplies valores en una sola variable
@@ -7,3 +7,8 @@ como números, cadenas de texto o incluso objetos, los arrays te permiten
 agregar, eliminar, acceder y modificar elementos fácilmente, con ellos
 podrás organizar y manipular colecciones de datos de manera eficiente.
 */
+//Declaración
+let myArray = []
+let myArray2 = new Array()
+console.log(myArray)
+console.log(myArray2)
