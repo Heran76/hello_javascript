@@ -28,3 +28,7 @@ console.log("*****[get]*****")
 console.log(myMap.get("Nombre"))
 console.log(myMap.get("apellidos"))
 
+//has devuelve true si la clave existe y false si no exite
+console.log("******[has]******")
+console.log(myMap.has("apellido"))
+console.log(myMap.get("edad"))
