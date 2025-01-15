@@ -32,3 +32,23 @@ console.log(myMap.get("apellidos"))
 console.log("******[has]******")
 console.log(myMap.has("apellido"))
 console.log(myMap.get("edad"))
+
+//delete
+myMap.delete("Correo")
+console.log("*****[delete]*****")
+console.log(myMap)
+
+//claves, valores y entradas
+console.log("*****[claves, valores, entradas]******")
+console.log(myMap.keys())
+console.log(myMap.values())
+console.log(myMap.entries())
+
+//Tamaño size
+console.log("*****[size]******")
+console.log(myMap.size)
+// borrar 
+
+myMap.clear() 
+console.log("*****[Borrar]*****")
+console.log(myMap)
