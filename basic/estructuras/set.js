@@ -53,7 +53,7 @@ console.log(mySet)
 // No admite duplicados
 
 mySet.add("heran76@gmail.com")
-mySet.add("heran76@gmail.com")
-mySet.add("heran76@gmail.com")
-mySet.add("heran76@gmail.com")
+//mySet.add("heran76@gmail.com")
+//.add("heran76@gmail.com")
+//mySet.add("heran76@gmail.com")
 console.log(mySet)
