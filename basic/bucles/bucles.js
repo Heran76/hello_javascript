@@ -6,7 +6,6 @@ una condición especifica. Con los buclues, puedes automatizar
 tareas repetitivas.ahorrando tiempo y evitando código redundante
 básicamente, permiten ejecutar un bloque de codigo repetidamente
 */
-
 for (let i = 0; i <=5; i++){
     console.log("Hello World")
 }
