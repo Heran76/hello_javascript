@@ -67,7 +67,6 @@ for (let value of myString) {
 }
 
 // break y continue
-
 for (let i = 0; i < 10; i++) {
     if (i == 5) {
         continue
