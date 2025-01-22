@@ -65,7 +65,6 @@ for (let value of myMap) {
 for (let value of myString) {
     console.log(value)
 }
-
 // break y continue
 for (let i = 0; i < 10; i++) {
     if (i == 5) {
