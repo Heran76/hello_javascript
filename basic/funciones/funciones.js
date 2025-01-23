@@ -20,3 +20,10 @@ function  myfuname(name){
     console.log(`Hello, ${name}`);
 }
 myfuname("Antonio")
+
+// funciones anónimas hay qye asignarla a una constante o variable
+
+const myfun2 = function(name){
+    console.log(`Hello, &{name}`)
+}
+myfun2("Antonio Heredia") //atraves del valor de la variable accedemeos
