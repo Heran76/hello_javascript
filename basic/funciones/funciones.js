@@ -13,3 +13,10 @@ console.log("**********")
 for(let i = 0; i<5; i++){
     myFun()
 }
+
+//con parámetros
+
+function  myfuname(name){
+    console.log(`Hello, ${name}`);
+}
+myfuname("Antonio")
