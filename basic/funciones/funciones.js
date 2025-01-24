@@ -27,3 +27,24 @@ const myfun2 = function(name){
     console.log(`Hello, &{name}`)
 }
 myfun2("Antonio Heredia") //atraves del valor de la variable accedemeos
+
+//Arrow funciones
+const myfun3 = (name)=>{
+ console.log(`Hello ${name}`)
+}
+myfun3("Antonio Heredia Morante")
+
+//Parámetros
+function sum(a,b){
+    console.log(a+b)
+}
+sum(40,2)
+sum(42) //error NAN
+sum() //error NAN
+
+function defaultsum(a=0,b=0){
+    console.log(a+b);
+}
+defaultsum()
+defaultsum(76)
+defaultsum(70,6)
