@@ -51,10 +51,24 @@ console.log(countVowels("HELLO"));             // 2
 function toUpperCaserArray(strings){
     let upperCaseStrings = []
     for(let i = 0; i < strings.length; i++){
-        upperCaseStrings.push(strings[i].toUpperCase())
+        upperCaseStrings.push(strings[i].toUpperCase());
         return upperCaseStrings
     }
 }
-let strings = ["holacaracola"]
-console.log("***** Ejercicio 4 *****")
-console.log(toUpperCaserArray(strings))
+let strings = ["holacaracola"];
+console.log("***** Ejercicio 4 *****");
+console.log(toUpperCaserArray(strings));
+
+// 5. Crea una función que reciba un número y devuelva true si es primo, y false en caso contrario.
+function isPrime(num) {
+    if (num <= 1) return false
+    for (let i = 2; i < num; i++) {
+        if (num % i === 0) {
+            return false + " No es un número primo"
+        }
+    }
+    return true + " Número primo"
+}
+console.log("***** Ejercicio 5 *****");
+let num = 4;
+console.log("El número introducido es "+isPrime(num));
