@@ -72,3 +72,22 @@ function isPrime(num) {
 console.log("***** Ejercicio 5 *****");
 let num = 4;
 console.log("El número introducido es "+isPrime(num));
+// 6. Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos.function commonElements(array1, array2) {
+    function commonElements(array1, array2) {
+        let common = []
+        for (let i = 0; i < array1.length; i++) {
+            for (let j = 0; j < array2.length; j++) {
+                if (array1[i] === array2[j]) {
+                    common.push(array1[i])
+                    break
+                }
+            }
+        }
+        return common
+    }
+console.log("******* ejercicio 6*******")    
+const array1 = [1, 2, 3, 4];
+const array2 = [3, 4, 5, 6];
+console.log(commonElements(array1, array2)); // Salida: [3, 4]
+
+ 
