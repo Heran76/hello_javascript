@@ -85,9 +85,9 @@ console.log("El número introducido es "+isPrime(num));
         }
         return common
     }
-console.log("******* ejercicio 6*******")    
-const array1 = [1, 2, 3, 4];
-const array2 = [3, 4, 5, 6];
-console.log(commonElements(array1, array2)); // Salida: [3, 4]
+    console.log("******* ejercicio 6*******")    
+    const array1 = [1, 2, 3, 4];
+    const array2 = [3, 4, 5, 6];
+    console.log(commonElements(array1, array2)); // Salida: [3, 4]
 
  
