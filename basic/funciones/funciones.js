@@ -1,3 +1,4 @@
+
 // funciones
 /*
 Las funciones nos permiten agrupar bloques de código reutilizables, aquellos
