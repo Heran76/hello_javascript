@@ -89,3 +89,16 @@ console.log(person.name == person4.name)
 for(let i in person4){
     console.log(i+": "+person4[i])
 }
+// Funciones como objetos
+
+function Person(name, age) { // Deberí­a ser una clase
+    this.name = name
+    this.age = age
+}
+
+let person5 = new Person("Marcos", 49)
+console.log(person5)
+console.log(person5.name)
+
+console.log(typeof person5)
+console.log(typeof person4)
