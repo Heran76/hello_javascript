@@ -48,6 +48,7 @@ person2.walk();
 let person3 = {
     name: "Heran",
     age: 48,
+
     alias: "heranDev",
     walk: function () {
         console.log("La persona camina.")
@@ -67,3 +68,24 @@ console.log(person3.name)
 console.log(person3.job)
 console.log(person3.job.name)
 person3.job.work()
+// Igualdad de objetos
+
+let person4 = {
+    name: "Antonio Heredia",
+    alias: "Heran76",
+    email: "Herandev@gmail.com",
+    age: 49
+}
+
+console.log(person)
+console.log(person4)
+
+console.log(person == person4)
+console.log(person === person4)
+
+console.log(person.name == person4.name)
+
+//iteración
+for(let i in person4){
+    console.log(i+": "+person4[i])
+}
