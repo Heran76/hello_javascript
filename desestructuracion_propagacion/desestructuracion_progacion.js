@@ -59,3 +59,25 @@ console.log(myValue9)
 let [myValue10, , , myValue13] = myArray
 console.log(myValue10)
 console.log(myValue13)
+
+// Sintaxis objects
+
+let { name, age, alias } = person
+console.log(name)
+console.log(age)
+console.log(alias)
+
+// Sintaxis objects con valores predeterminados
+
+let { name2, age2, alias2, email = "email@email.com" } = person
+console.log(name2) // No existe
+console.log(age2)  // No existe
+console.log(alias2)  // No existe
+console.log(email)
+
+// Sintaxis objects con nuevos nombres de variables
+
+let { alias: alias3, name: name3, age: age3 } = person
+console.log(name3)
+console.log(age3)
+console.log(alias3)
