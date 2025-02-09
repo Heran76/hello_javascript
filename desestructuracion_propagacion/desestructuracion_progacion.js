@@ -81,3 +81,57 @@ let { alias: alias3, name: name3, age: age3 } = person
 console.log(name3)
 console.log(age3)
 console.log(alias3)
+// Objects anidados
+
+let person3 = {
+    name: "Antonio",
+    age: 37,
+    alias: "Herandev",
+    walk: function () {
+        console.log("La persona camina.")
+    },
+    job: {
+        name: "Programador",
+        exp: 15,
+        work: function () {
+            console.log(`La persona de ${this.age} aÃ±os de experiencia trabaja.`)
+        }
+    }
+}
+
+let { name: name4, job: { name: jobName } } = person3
+
+console.log(name4)
+console.log(jobName)
+
+// PropagaciÃ³n (...)
+
+// Sintaxis arrays
+
+let myArray2 = [...myArray, 5, 6]
+
+console.log(myArray2)
+
+// Copia de arrays
+
+let myArray3 = [...myArray]
+
+console.log(myArray3)
+
+// Combinación de arrays
+
+let myArray4 = [...myArray, ...myArray2, ...myArray3]
+
+console.log(myArray4)
+
+// Sintaxis objects
+
+let person4 = { ...person, email: "heran@herandev.com" }
+
+console.log(person4)
+
+// Copia de objects
+
+let person5 = { ...person }
+
+console.log(person5)
