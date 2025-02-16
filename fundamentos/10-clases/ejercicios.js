@@ -25,3 +25,19 @@ person.greet();            // Output: Hola, mi nombre es Hernadev y tengo 48 añ
 // 5. Haz uso del método estático.
 
 Person.welcome()
+// 6. Crea una clase que haga uso de herencia.
+
+class Employee extends Person {
+    constructor(name, age, job) {
+        super(name, age)
+        this.job = job
+    }
+
+    work() {
+        console.log(`${this.name} trabaja como ${this.job}`)
+    }
+}
+
+let employee = new Employee("Antonio", 49, "Programador")
+employee.greet()
+employee.work()
