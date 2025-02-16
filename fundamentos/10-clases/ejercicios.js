@@ -1,11 +1,27 @@
 // 1. Crea una clase que reciba dos propiedades.
 class Person {
     constructor(name, age) {
-        this.name = name
-        this.age = age
+        this.name = name;
+        this.age = age;
     }
 
-// 2. Añade un método a la clase que utilice las propiedades.
-greet() {
-    console.log(`Hola, mi nombre es ${this.name} y tengo ${this.age} años`)
+    // 2. Añade un método a la clase que utilice las propiedades.
+    greet() {
+        console.log(`Hola, mi nombre es ${this.name} y tengo ${this.age} años.`);
+    }
+    // 4. Añade un método estático a la primera clase.
+
+    static welcome() {
+        console.log("Hola, soy un método estático de esta clase")
+    }
 }
+
+// 3. Muestra los valores de las propiedades e invoca a la función.
+let person = new Person("Hernadev", 48);
+console.log(person.name);  // Output: Hernadev
+console.log(person.age);   // Output: 48
+person.greet();            // Output: Hola, mi nombre es Hernadev y tengo 48 años.
+
+// 5. Haz uso del método estático.
+
+Person.welcome()
