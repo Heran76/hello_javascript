@@ -66,4 +66,30 @@ class Car {
         this._model = newModel
     }
 }
+// 8. Modifica la clase con getters y setters para que use propiedades privadas.
 
+class PrivateCar {
+    #brand
+    #model
+
+    constructor(brand, model) {
+        this.#brand = brand
+        this.#model = model
+    }
+
+    get brand() {
+        return this.#brand
+    }
+
+    set brand(newBrand) {
+        this.#brand = newBrand
+    }
+
+    get model() {
+        return this.#model
+    }
+
+    set model(newModel) {
+        this.#model = newModel
+    }
+}
