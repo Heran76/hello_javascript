@@ -93,3 +93,28 @@ class PrivateCar {
         this.#model = newModel
     }
 }
+// 9. Utiliza los get y set y muestra sus valores.
+
+let car = new PrivateCar("Tesla", "Model S")
+console.log(car.brand)
+console.log(car.model)
+car.brand = "BMW"
+car.model = "M5"
+console.log(car.brand)
+console.log(car.model)
+
+// 10. Sobrescribe un método de una clase que utilice herencia.
+
+class Manager extends Employee {
+    constructor(name, age, job, teamSize) {
+        super(name, age, job)
+        this.teamSize = teamSize
+    }
+
+    work() {
+        console.log(`${this.name} gestiona un equipo de ${this.teamSize} personas como ${this.job}`)
+    }
+}
+
+let manager1 = new Manager("HeranDev", 48, "Programador", 10)
+manager1.work()
