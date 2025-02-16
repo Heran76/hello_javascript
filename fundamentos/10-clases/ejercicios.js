@@ -41,3 +41,29 @@ class Employee extends Person {
 let employee = new Employee("Antonio", 49, "Programador")
 employee.greet()
 employee.work()
+
+// 7. Crea una clase que haga uso de getters y setters.
+
+class Car {
+    constructor(brand, model) {
+        this._brand = brand
+        this._model = model
+    }
+
+    get brand() {
+        return this._brand
+    }
+
+    set brand(newBrand) {
+        this._brand = newBrand
+    }
+
+    get model() {
+        return this._model
+    }
+
+    set model(newModel) {
+        this._model = newModel
+    }
+}
+
