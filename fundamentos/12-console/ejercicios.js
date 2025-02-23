@@ -69,7 +69,7 @@ console.timeEnd("Timer")
 // 7. Valida con assert si un número es positivo.
 
 function checkPositive(number) {
-    console.assert(number > 0, `El nÃºmero ${number} no es positivo`)
+    console.assert(number > 0, `El número ${number} no es positivo`)
 }
 
 checkPositive(5)  // No muestra error
@@ -78,7 +78,7 @@ checkPositive(-3)
 // 8. Utiliza count.
 
 function countCalls() {
-    console.count("Se ha llamado a la funciÃ³n")
+    console.count("Se ha llamado a la función")
 }
 countCalls()
 countCalls()
@@ -91,7 +91,7 @@ function functionOne() {
 }
 
 function functionTwo() {
-    console.trace("Traza de ejecuciÃ³n")
+    console.trace("Traza de ejecución")
 }
 
 functionOne()
