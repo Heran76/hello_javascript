@@ -18,7 +18,7 @@ Experimentar con nuevas APIs y características del lenguaje.
 Crear un banco de ejemplos para consultas rápidas.
 
 
-## Authors
+## Autor
 
 - [@heran76 // Antonio Heredia Morante](https://github.com/Heran76)
 
