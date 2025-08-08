@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boton Nombre</title>
+</head>
+<body>
+    <form >
+        <p>Introduce tu nombre</p>
+        <input type="text" id="nombreUsuario">
+        <button onclick="nombre()">Enviar</button>
+    </form>
+    <script>
+        function nombre(){
+            let nombreUser = document.getElementById("nombreUsuario".value)
+            alert("Hola " + nombreUser )
+        }
+    </script>
+</body>
+</html>
