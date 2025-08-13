@@ -7,16 +7,19 @@
 </head>
 <body>
    <h1>¿Como te llamas ?</h1>
-   <input type="text" placeholder="Introduce tu nombre" id="NombreUsuario">
+   <input type="text" placeholder="Introduce tu nombre" id="nombreUsuario">
    <button onclick="mostrarNombre()">Ingresar</button>
-   <h2 id="texto">¡No se como te llamas :(!</h2>
+   <h2 id="salida">No se como te llamas :(</h2>
+
    <script>
-    function mostrarNombre(){
-        let elementoNombre = document.getElementById("NombreUsuario");
-        let elementotexto = document.getElementById("texto");
-        let mensaje = " Hola tu nombre es "+elementoNombre.value+ " :)";
-        elementotexto.textContent = mensaje;
-    }
+   function mostrarNombre(){
+     let elementoNombre = document.getElementById("nombreUsuario");
+     let elementoTexto = document.getElementById("salida");
+     let mensaje = "Hola tu nombre es "+elementoNombre.value;
+     elementoTexto.textContent = mensaje;
+   }
+
+
    </script>
 </body>
 </html>
