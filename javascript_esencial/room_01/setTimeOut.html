@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarma</title>
+</head>
+<body>
+    <input type="number" name="number" id="segundos" placeholder="pon el tiempo">
+    <button onclick="alarma()">Activar Alarma</button>
+    <h1 id="texto" style="color:red">Apagado</h1>
+
+   <script>
+       let elementoSegundo = document.getElementById("segundos");
+       let elementoTexto = document.getElementById("texto")
+       
+      function alarma(){
+         setTimeout(tiempoTerminado, 1000*segundos.value)
+       }
+       function tiempoTerminado(){
+         elementoTexto.textContent="ENCENDIDO"
+         elementoTexto.style.color = "green"
+       }
+   </script>
+</body>
+</html>

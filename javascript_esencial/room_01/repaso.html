@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repaso</title>
+</head>
+<body>
+    <h1>Dime tu nombre</h1>
+    <input type="text" placeholder="Escribe tu nombre" id="registroNombre">
+    <button onclick="nombreUsuario()">Ingresar</button>
+    <p id="salida"></p>
+
+    <hr>
+    <h2 id="textogrande">Alarma</h2>
+    <input type="number" name="number" id="selecionTiempo">
+    <button onclick="alarma()">Activar</button>
+    <h3 style="color:red" id="textoAlarma">Apagada</h3>
+
+    <script>
+        function nombreUsuario(){
+            let elementoNombre = document.getElementById("registroNombre");
+            let elementoTexto = document.getElementById("salida");
+            let mensaje = "Hola, te llamas " + elementoNombre.value;
+            elementoTexto.textContent= mensaje     
+        }
+        let tiempoUsuario = document.getElementById("selecionTiempo")
+        let elementotexto = document.getElementById("textoAlarma")
+        let elementotexto2 = document.getElementById("textogrande")
+        function alarma(){
+            setTimeout(tiempoterminado, 1000*tiempoUsuario.value)
+        }
+        function tiempoterminado(){
+              elementotexto.textContent="Encendida"
+              elementotexto.style.color="green"
+              elementotexto2.style.color="green"
+        }
+
+    </script>
+</body>
+</html>
