@@ -8,7 +8,7 @@ let alias = 'MoureDev'
 let email  = `braismoure@mouredev.com`
 
 // Números
-let age = 37 // Entero
+let age = 48 // Entero
 let height = 1.77 // Decimal
 
 // Booleanos (booleano)
